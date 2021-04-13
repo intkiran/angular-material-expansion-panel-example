@@ -1,0 +1,33 @@
+<p>
+  disable-expansion-panel works!
+</p>
+<mat-expansion-panel [disabled]="true">
+  <mat-expansion-panel-header>
+    <mat-panel-title>
+      Basic Form
+    </mat-panel-title>
+    <mat-panel-description>
+      Enter Details
+    </mat-panel-description>
+  </mat-expansion-panel-header>
+
+  <mat-form-field>
+    <mat-label>Name</mat-label>
+    <input matInput>
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>phone</mat-label>
+    <input matInput type="number" min="1">
+  </mat-form-field>
+</mat-expansion-panel>
+<mat-expansion-panel>
+  <mat-expansion-panel-header>
+    <mat-panel-title>
+      Second panel
+    </mat-panel-title>
+    <mat-panel-description>
+      panel description </mat-panel-description>
+  </mat-expansion-panel-header>
+  <p>This is second panel</p>
+</mat-expansion-panel>

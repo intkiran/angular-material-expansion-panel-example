@@ -1,0 +1,17 @@
+<p>
+  button-expansion-panel works!
+</p>
+
+
+<mat-expansion-panel [expanded]="isOpen">
+
+  <mat-expansion-panel-header>
+    <mat-panel-title>
+      Panel Header Title
+    </mat-panel-title>
+  </mat-expansion-panel-header>
+
+  <p>Panel Body</p>
+</mat-expansion-panel>
+
+<button mat-raised-button (click)="toggleExpansion">TOGGLE</button>
